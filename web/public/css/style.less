@@ -13,58 +13,64 @@ body {
 }
 
 a {
-  &:link, &:hover, &:visited{
+
+  &:link, &:hover, &:visited {
     text-decoration: none;
   }
+
   color: @greyple;
-  &:link, &:visited{
+
+  &:link, &:visited {
     font-weight: 700;
     color: @greyple;
   }
+  
 }
 
-.container{
+.container {
 
   position: relative;
   width: 100%;
 
   margin: 100px 0;
 
-  .bot{
+  .bot {
 
-    .avatar{
+    .avatar {
 
       margin: auto;
       display: table;
 
-      img{
+      img {
         border-radius: 50%;
         height: 100px;
       }
 
     }
 
-    .name{
+    .name {
       margin-left: auto;
       margin-right: auto;
 
       text-align: center;
 
-      h2{
+      h2 {
         margin-bottom: 0;
       }
-      a{
+
+      label {
         text-align: center;
         color: #99AAB5;
       }
+
     }
 
-    .example{
+    .example {
       margin: 50px auto;
       display: table;
     }
 
-    .button-container{
+    .button-container {
 
       position: relative;
       height: 73px;
@@ -74,7 +80,7 @@ a {
       margin-left: auto;
       margin-right: auto;
 
-      .button{
+      .button {
 
         position: absolute;
 
@@ -98,17 +104,17 @@ a {
 
         text-align: center;
 
-        &:active{
+        &:active {
           margin-top: 5px;
           padding-bottom: 25px;
           box-shadow: inset 0px -10px 0px 0px @not_dark;
         }
 
-        &:link, &:hover, &:visited{
+        &:link, &:hover, &:visited {
           color: @white;
         }
 
-        label{
+        label {
           cursor: pointer;
           text-transform: uppercase;
         }
@@ -116,7 +122,7 @@ a {
 
     }
 
-    .join-us, .bugs{
+    .join-us, .bugs {
       text-align: center;
       margin: 10px 0;
     }
